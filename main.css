@@ -1,0 +1,14 @@
+body {
+	background-color: #f5f6f6;
+	color: #3a3235;
+}
+
+#header {
+	background-color: #997255;
+	color: #f5f6f6;
+}
+
+form {
+	width: 60%;
+	margin: auto;
+}
