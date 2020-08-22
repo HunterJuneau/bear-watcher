@@ -7,6 +7,7 @@ const makeBears = (array) => {
                             <div class"card-body">
                               <h5 class="card-title">${item.name}</h5>
                               <button type="button" id="attempt-${index}" class="btn btn-secondary">Attempt</button>
+                              <button type="button" id="success-${index}" class="btn btn-success">Success</button>
                             </div>
                           </div>`);
 	});
