@@ -1,7 +1,7 @@
-import { submit } from './javascripts/bearForm.js'
+import { submit } from './javascripts/bearForm.js';
 
 const init = () => {
-    submit()
+	submit();
 };
 
 init();

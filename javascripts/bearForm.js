@@ -8,7 +8,7 @@ const submit = () => {
 			let name = $('#name').val();
 			let img = $('#img').val();
 
-			bears.push({ name: `${name}`, img: `${img}` });
+			bears.push({ name: `${name}`, img: `${img}`, fishCaught: 0 });
 
 			makeBears(bears);
 			$('form')[0].reset();
